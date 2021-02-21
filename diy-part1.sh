@@ -17,7 +17,7 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #git clone https://github.com/tianiue/luci-packages.git package/luci-packages
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/fw876/helloworld.git
 #git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
@@ -26,8 +26,7 @@ git clone https://github.com/fw876/helloworld.git package/helloworld
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 #git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
-git clone https://github.com/AdguardTeam/AdGuardHome
-git clone https://github.com/AdguardTeam/AdGuardHome
-git clone https://github.com/xiaorouji/openwrt-passwall
-git clone https://github.com/kenzok8/openwrt-packages
-git clone https://github.com/kenzok8/small
+git clone https://github.com/AdguardTeam/AdGuardHome.git
+git clone https://github.com/xiaorouji/openwrt-passwall.git
+git clone https://github.com/kenzok8/openwrt-packages.git
+git clone https://github.com/kenzok8/small.git
