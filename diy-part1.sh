@@ -15,6 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#git clone https://github.com/P3TERX/xxx package/xxx(格式)
 git clone https://github.com/tianiue/luci-packages.git package/luci-packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/fw876/helloworld.git package/helloworld
@@ -26,7 +27,6 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/lisaac/luci-lib-docker.git package/luci-lib-docker
-git clone https://github.com/kenzok8/openwrt-packages.git
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small
-git clone https://github.com/AdguardTeam/AdGuardHome.git
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small.git package/small
+git clone https://github.com/AdguardTeam/AdGuardHome.git package/AdGuardHome
